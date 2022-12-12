@@ -9,8 +9,8 @@ const Navbar = () => {
       <div className='navbar-brand text-white'> Apartment management</div>
 <div className="ml-auto">
   <ul className='navbar-nav'>
-    <li className='nav-link'> <Link className='nav-link text-white' to="./Home"> Home</Link></li>
-    <li className='nav-link'> <Link className='nav-link text-white' to="./login"> Login</Link></li>
+    <li className='nav-link'> <Link className='nav-link text-white' to="/Home"> Home</Link></li>
+    <li className='nav-link'> <Link className='nav-link text-white' to="/login"> Login</Link></li>
 
   </ul>
 </div>
