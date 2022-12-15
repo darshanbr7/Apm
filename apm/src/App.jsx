@@ -4,14 +4,15 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import { BrowserRouter as Router , Routes,Route } from 'react-router-dom'
 import About from './navbar/About'
 import Login from './navbar/Login'
+import Navbar from "./navbar/Navbar"
 
 const App = () => {
   return (
   <>
     <Router>
-      <Home />
+      <Navbar />
       <Routes>
-      <Route path='/' element={<Home/> }/>
+      <Route path='/home' element={<Home/> }/>
       <Route path='/about' element={<About/> }/>
       <Route path='/login' element={<Login/> }/>
       </Routes>
